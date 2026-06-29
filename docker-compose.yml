@@ -3,7 +3,7 @@ services:
     build:
       context: .
       target: builder
-    command: npx prisma migrate deploy
+    command: npx prisma db push
     env_file: .env
     environment:
       DATABASE_URL: postgresql://trivia:${POSTGRES_PASSWORD}@db:5432/trivia

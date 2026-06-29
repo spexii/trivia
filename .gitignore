@@ -3,7 +3,6 @@ node_modules/
 !.env.example
 .env.local
 .env.production
-prisma/migrations/
 web/.next/
 web/out/
 *.log
