@@ -1,0 +1,12 @@
+{
+  "season_name": "Season",
+  "started": "Trivia bot started (en, {count} questions).",
+  "correct": "{nick} answered correctly! (+{points} pts, total {total} pts)",
+  "time_up": "Time's up! The answer was: {answer}",
+  "paused": "Trivia is paused.",
+  "resumed": "Trivia resumed!",
+  "season_reset": "Season ended! New season: {newSeason}",
+  "no_permission": "No permission for /{command}.",
+  "user_joined": "{nick} joined the game.",
+  "user_left": "{nick} left the game."
+}

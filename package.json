@@ -1,0 +1,16 @@
+{
+  "name": "trivia",
+  "private": true,
+  "workspaces": ["bot", "web"],
+  "scripts": {
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "dev:bot": "npm run dev --workspace=bot",
+    "dev:web": "npm run dev --workspace=web"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  }
+}

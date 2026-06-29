@@ -1,0 +1,58 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  owner
+  moderator
+  user
+}
+
+enum SeasonType {
+  monthly
+  manual
+}
+
+model User {
+  nick         String   @id
+  passwordHash String
+  role         Role     @default(user)
+  createdAt    DateTime @default(now())
+}
+
+model Season {
+  id        Int        @id @default(autoincrement())
+  name      String
+  type      SeasonType @default(monthly)
+  startedAt DateTime   @default(now())
+  endedAt   DateTime?
+  stats     Stats[]
+}
+
+model Stats {
+  nick               String
+  seasonId           Int
+  points             Int       @default(0)
+  questionsWon       Int       @default(0)
+  currentStreak      Int       @default(0)
+  bestStreak         Int       @default(0)
+  bestWpm            Int       @default(0)
+  bestWpmQuestion    String?
+  bestWpmAnswer      String?
+  bestWpmAnsweredAt  DateTime?
+  quickestAnswerMs   Int       @default(0)
+  quickestQuestion   String?
+  quickestAnswer     String?
+  quickestAnsweredAt DateTime?
+
+  season Season @relation(fields: [seasonId], references: [id], onDelete: Cascade)
+
+  @@id([nick, seasonId])
+  @@index([seasonId, points(sort: Desc)])
+}

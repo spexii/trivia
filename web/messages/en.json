@@ -1,0 +1,70 @@
+{
+  "login": {
+    "title": "Trivia",
+    "subtitle": "IRC-style trivia game",
+    "tab_guest": "Guest",
+    "tab_login": "Login",
+    "tab_register": "Register",
+    "nick_label": "Nickname",
+    "nick_placeholder": "Enter nickname...",
+    "password_label": "Password",
+    "password_placeholder": "Password",
+    "nick_random": "Random nickname",
+    "register_nudge": "Register your nick to protect it — otherwise anyone can take it and claim your points.",
+    "guest_submit": "Join as guest",
+    "login_submit": "Login",
+    "register_submit": "Register",
+    "loading": "Loading..."
+  },
+  "room": {
+    "chat_placeholder": "Type a message or answer...",
+    "send": "Send",
+    "users_header": "Players",
+    "users_toggle": "Players ({count})",
+    "trivia_waiting": "Waiting for question...",
+    "connecting": "Connecting...",
+    "disconnected": "Disconnected – reconnecting...",
+    "hint_label": "Hint",
+    "points_suffix": "pts"
+  },
+  "system": {
+    "user_joined": "{nick} joined the game.",
+    "user_left": "{nick} left the game.",
+    "question_skipped": "{by} skipped the question.",
+    "trivia_paused": "{by} paused trivia.",
+    "trivia_resumed": "{by} resumed trivia.",
+    "season_reset": "{by} started a new season: {newSeason}",
+    "no_permission": "No permission for that command.",
+    "help": "{text}"
+  },
+  "trivia": {
+    "correct": "Winner: {nick} Answer: {answer} Time: {time} Streak: {streak} Points: {totalPoints} WPM: {wpm} Rank: {rank}.",
+    "timeout": "Time's up! The answer was: {answer}",
+    "season_title": "Season standings: {seasonName}",
+    "hof_title": "Hall of Fame",
+    "stats_header_rank": "#",
+    "stats_header_nick": "Player",
+    "stats_header_points": "Points",
+    "stats_header_won": "Wins",
+    "stats_header_streak": "Streak",
+    "stats_header_wpm": "WPM",
+    "personal_title": "Stats: {nick}",
+    "personal_season": "This season ({seasonName})",
+    "personal_alltime": "All time",
+    "personal_points": "Points",
+    "personal_won": "Wins",
+    "personal_streak_current": "Current streak",
+    "personal_streak_best": "Best streak",
+    "personal_wpm": "Best WPM",
+    "personal_quickest": "Quickest",
+    "personal_no_season": "No points yet this season.",
+    "personal_ms": "{ms} ms"
+  },
+  "errors": {
+    "NICK_TAKEN": "That nickname is already registered.",
+    "NICK_INVALID": "Nickname can only contain letters, numbers and underscores (2–20 characters).",
+    "INVALID_CREDENTIALS": "Invalid nickname or password.",
+    "MISSING_FIELDS": "Please fill in all fields.",
+    "UNKNOWN": "Something went wrong. Please try again."
+  }
+}

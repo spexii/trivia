@@ -1,0 +1,12 @@
+# Triviakysymykset (fi)
+# Formaatti: kysymys*vastaus*vaihtoehtoinen vastaus
+Mikä on Suomen pääkaupunki?*Helsinki
+Kuinka monta kuukautta on vuodessa?*12*kaksitoista
+Mikä planeetta on aurinkokunnan suurin?*Jupiter
+Kuka maalasi Mona Lisan?*Leonardo da Vinci*da Vinci
+Mikä on veden kemiallinen kaava?*H2O
+Kuinka monta ruutua on shakkilaudalla?*64
+Mikä on maailman pisin joki?*Niili
+Missä maassa sijaitsee Eiffel-torni?*Ranskassa*Ranska
+Mikä on Suomen kansalliseläin?*karhu
+Kuinka monta sekuntia on minuutissa?*60*kuusikymmentä

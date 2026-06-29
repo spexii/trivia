@@ -1,0 +1,70 @@
+{
+  "login": {
+    "title": "Trivia",
+    "subtitle": "IRC-tyylinen tietovisapeli",
+    "tab_guest": "Vieras",
+    "tab_login": "Kirjaudu",
+    "tab_register": "Rekisteröidy",
+    "nick_label": "Nimimerkki",
+    "nick_placeholder": "Kirjoita nimimerkki...",
+    "password_label": "Salasana",
+    "password_placeholder": "Salasana",
+    "nick_random": "Satunnainen nimimerkki",
+    "register_nudge": "Rekisteröimällä nimimerkkisi suojaat sen — muuten kuka tahansa voi käyttää sitä ja saada pisteesi.",
+    "guest_submit": "Liity vieraana",
+    "login_submit": "Kirjaudu",
+    "register_submit": "Rekisteröidy",
+    "loading": "Ladataan..."
+  },
+  "room": {
+    "chat_placeholder": "Kirjoita viesti tai vastaus...",
+    "send": "Lähetä",
+    "users_header": "Pelaajat",
+    "users_toggle": "Pelaajat ({count})",
+    "trivia_waiting": "Odotetaan kysymystä...",
+    "connecting": "Yhdistetään...",
+    "disconnected": "Yhteys katkesi – yhdistetään uudelleen...",
+    "hint_label": "Vihje",
+    "points_suffix": "p"
+  },
+  "system": {
+    "user_joined": "{nick} liittyi peliin.",
+    "user_left": "{nick} poistui pelistä.",
+    "question_skipped": "{by} ohitti kysymyksen.",
+    "trivia_paused": "{by} pysäytti trivian.",
+    "trivia_resumed": "{by} jatkoi trivian.",
+    "season_reset": "{by} aloitti uuden kauden: {newSeason}",
+    "no_permission": "Ei oikeuksia komentoon.",
+    "help": "{text}"
+  },
+  "trivia": {
+    "correct": "Voittaja: {nick} Vastaus: {answer} Aika: {time} Putki: {streak} Pisteet: {totalPoints} SPM: {wpm} Sijoitus: {rank}.",
+    "timeout": "Aika loppui! Vastaus oli: {answer}",
+    "season_title": "Kausipisteytys: {seasonName}",
+    "hof_title": "Hall of Fame",
+    "stats_header_rank": "#",
+    "stats_header_nick": "Pelaaja",
+    "stats_header_points": "Pisteet",
+    "stats_header_won": "Voitot",
+    "stats_header_streak": "Putki",
+    "stats_header_wpm": "SPM",
+    "personal_title": "Tilastot: {nick}",
+    "personal_season": "Kausi ({seasonName})",
+    "personal_alltime": "Kaikkiaan",
+    "personal_points": "Pisteet",
+    "personal_won": "Voitot",
+    "personal_streak_current": "Putki nyt",
+    "personal_streak_best": "Paras putki",
+    "personal_wpm": "Paras SPM",
+    "personal_quickest": "Nopein",
+    "personal_no_season": "Ei vielä pisteitä tällä kaudella.",
+    "personal_ms": "{ms} ms"
+  },
+  "errors": {
+    "NICK_TAKEN": "Nimimerkki on jo rekisteröity.",
+    "NICK_INVALID": "Nimimerkki saa sisältää vain kirjaimia, numeroita ja alaviivoja (2–20 merkkiä).",
+    "INVALID_CREDENTIALS": "Virheellinen nimimerkki tai salasana.",
+    "MISSING_FIELDS": "Täytä kaikki kentät.",
+    "UNKNOWN": "Jokin meni pieleen. Yritä uudelleen."
+  }
+}

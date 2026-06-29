@@ -1,0 +1,12 @@
+# Trivia questions (en)
+# Format: question*answer*alternative answer
+What is the capital of Finland?*Helsinki
+How many months are in a year?*12*twelve
+Which planet is the largest in the solar system?*Jupiter
+Who painted the Mona Lisa?*Leonardo da Vinci*da Vinci
+What is the chemical formula for water?*H2O
+How many squares are on a chessboard?*64
+What is the longest river in the world?*Nile
+In which country is the Eiffel Tower?*France
+What is Finland's national animal?*bear
+How many seconds are in a minute?*60*sixty

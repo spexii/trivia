@@ -1,0 +1,12 @@
+{
+  "season_name": "Kausi",
+  "started": "Trivia-botti käynnistyi (fi, {count} kysymystä).",
+  "correct": "{nick} vastasi oikein! (+{points} p, yht. {total} p)",
+  "time_up": "Aika loppui! Vastaus oli: {answer}",
+  "paused": "Trivia on tauolla.",
+  "resumed": "Trivia jatkuu!",
+  "season_reset": "Kausi päättyi! Uusi kausi: {newSeason}",
+  "no_permission": "Ei oikeuksia komentoon /{command}.",
+  "user_joined": "{nick} liittyi peliin.",
+  "user_left": "{nick} poistui pelistä."
+}
