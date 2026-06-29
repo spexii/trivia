@@ -39,6 +39,7 @@ RUN npm run build --workspace=web
 
 FROM node:24-alpine AS production-web
 WORKDIR /app
+RUN apk add --no-cache openssl
 ENV NODE_ENV=production
 COPY --from=builder /app/web/.next/standalone ./
 COPY --from=builder /app/web/.next/static ./web/.next/static
